@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-nav{
+    margin-left: 176px;
+}
+.navbar-nav li {
+    margin-left: -33px;
+    margin-right: 57px;
+    font-size: 0.813rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-nav li a{
+    color: aliceblue !important;
+}
+.naveicons {
+    margin-right: 10.785824345146379vh;
+    cursor: pointer;
+    filter: invert(100%);
+    margin-inline-end: 100px;
+}
+.naveicons li{
+    display: inline;
+    padding-left:  3.235747303543914vh ;
+}
+#navbar{
+    width: 100%;
+    transition: all 0.5s;   
+}
+.navbar-scrolled{
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0,0.15);
+}
+.navbar-toggler-icon{
+    filter: invert(100%); 
+}
+.bg1{
+    width: 100% !important;
+    background-color: #9c4041;
+    height: 700px;
+    background-image: url(images/01.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.body2{
+    background-color: #9c4041;
+    width: 100%;   
+    font-family: 'Montserrat', sans-serif; 
+}
+.class2 .col-xs-4{
+    text-align: center;
+}
+.class1 img{
+    width: 100%;
+    margin-left: 30px;  
+}
+.class2 .h1{
+    font-size: 4.0vmax;   
+}
+.class2 p{
+    color: #ffffff;
+}
+.body2 button{
+    width: 125px;
+    height: 45px;
+}
+.body3{
+    padding-top: 35px;
+    background-color: #1c1c1c;
+    width: 80%;
+    color: #7c682a;
+    font-family: Montserrat , sans-serif; 
+}
+.class3 {
+    font-size: 11px;
+    color: #d1bd74;
+    letter-spacing: 1px;
+    text-align: center;  
+}
+.text{
+    margin-left: 12px;
+}
+.t1{
+    font-size: 28px;
+    color: #7c682a;
+    text-align: left;
+}
+.body4{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+.body4 ul{
+    list-style-type: none;
+    margin-left: 100px;  
+ }
+.body4 a{
+    text-decoration: none;
+    color: #d1bd74;
+    opacity: 80%;   
+}
+.class6 ul{
+    margin-right: 119px;
+}
+.class6-1{
+    margin: auto;
+}
+@media  (min-width: 767px) {
+    .t1{
+        font-size: 26px;
+     
+    }
+}
+@media (max-width:574px) {
+    
+    .bgimg{
+        height: 100vh;
+    }
+
+}
